@@ -76,11 +76,11 @@ var integrationAliases = map[string]bool{
 
 // integrationInstallHints maps integration names to user-friendly install instructions.
 var integrationInstallHints = map[string]string{
-	"claude":   "install from https://code.claude.com/docs/en/quickstart",
-	"openclaw": "install from https://docs.openclaw.ai",
-	"codex":    "install with: npm install -g @openai/codex",
-	"droid":    "install from https://docs.factory.ai/cli/getting-started/quickstart",
-	"opencode": "install from https://opencode.ai",
+	"claude":   "Install from https://code.claude.com/docs/en/quickstart",
+	"openclaw": "Install from https://docs.openclaw.ai",
+	"codex":    "Install from https://developers.openai.com/codex/cli/",
+	"droid":    "Install from https://docs.factory.ai/cli/getting-started/quickstart",
+	"opencode": "Install from https://opencode.ai",
 }
 
 // IntegrationInfo contains display information about a registered integration.
